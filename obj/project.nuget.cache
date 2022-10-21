@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vShKlRxJVlYn/2k0Xd/skQ61kcNoZyFnPcQdl053Is9/2jmAZgd3oLIkHwE0o0VtcL3jTKqNvIohZA2d57212A==",
+  "success": true,
+  "projectFilePath": "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\simple.core.net.api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\16156\\.nuget\\packages\\awssdk.core\\3.7.13.21\\awssdk.core.3.7.13.21.nupkg.sha512",
+    "C:\\Users\\16156\\.nuget\\packages\\awssdk.s3\\3.7.9.71\\awssdk.s3.3.7.9.71.nupkg.sha512"
+  ],
+  "logs": []
+}
