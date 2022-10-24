@@ -26,6 +26,7 @@
       "simple.core.net.api/1.0.0": {
         "dependencies": {
           "AWSSDK.S3": "3.7.9.71",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -342,6 +343,7 @@
           "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {},
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2061,6 +2063,13 @@
       "sha512": "sha512-0xokD1siyQceUVU5j5PkeSEP8LUhtOiWCMGlzWlJDCz0Qtr+e9Zoo0AwQswpPKVoK76/Wh6hcDFpd/b/xze6jg==",
       "path": "awssdk.s3/3.7.9.71",
       "hashPath": "awssdk.s3.3.7.9.71.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gfDtAL1WhkjbRdbZlt/ZeQYCbgRpNCZCGj+yeqHObsNFRDHjq8qZJOX9AyTxJpSRYMi9SJk7JDyAbbVYRgEhAA==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.0",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

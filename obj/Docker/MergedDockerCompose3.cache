@@ -1,0 +1,39 @@
+services:
+  simple.core.net.api:
+    build:
+      context: C:\Adhar\Projects\firstazure
+      dockerfile: Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: simple.core.net.api
+      target: base
+    container_name: simple.core.net.api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+    image: simplecorenetapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2  "/app/bin/Debug/netcoreapp3.1/simple.core.net.api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 6000
+    tty: true
+    volumes:
+    - C:\Adhar\Projects\firstazure:/app:rw
+    - C:\Users\16156\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\16156\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\16156\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+    - C:\Users\16156\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Adhar\Projects\firstazure:/src:rw
+version: '3.4'

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\simple.core.net.api.csproj": {}
+    "C:\\Adhar\\Projects\\firstazure\\simple.core.net.api.csproj": {}
   },
   "projects": {
-    "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\simple.core.net.api.csproj": {
+    "C:\\Adhar\\Projects\\firstazure\\simple.core.net.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\simple.core.net.api.csproj",
+        "projectUniqueName": "C:\\Adhar\\Projects\\firstazure\\simple.core.net.api.csproj",
         "projectName": "simple.core.net.api",
-        "projectPath": "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\simple.core.net.api.csproj",
+        "projectPath": "C:\\Adhar\\Projects\\firstazure\\simple.core.net.api.csproj",
         "packagesPath": "C:\\Users\\16156\\.nuget\\packages\\",
-        "outputPath": "C:\\Adhar\\Projects\\simple.core.net.api\\simple.core.net.api\\obj\\",
+        "outputPath": "C:\\Adhar\\Projects\\firstazure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,12 +42,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AWSSDK.S3": {
               "target": "Package",
               "version": "[3.7.9.71, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             }
           },
           "imports": [

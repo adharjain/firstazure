@@ -1,0 +1,11 @@
+C:\Adhar\Projects\firstazure\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Adhar\Projects\firstazure\bin\Debug\appsettings.Development.json
+C:\Adhar\Projects\firstazure\bin\Debug\appsettings.json
+C:\Adhar\Projects\firstazure\bin\Debug\app.yaml
+C:\Adhar\Projects\firstazure\bin\Debug\simple.core.net.api.exe
+C:\Adhar\Projects\firstazure\bin\Debug\simple.core.net.api.dll
+C:\Adhar\Projects\firstazure\bin\Debug\AWSSDK.S3.dll
+C:\Adhar\Projects\firstazure\bin\Debug\AWSSDK.Core.dll
+C:\Adhar\Projects\firstazure\bin\Debug\simple.core.net.api.pdb
+C:\Adhar\Projects\firstazure\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Adhar\Projects\firstazure\obj\Debug\docker-compose.dcproj.CopyComplete

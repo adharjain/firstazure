@@ -1,0 +1,4 @@
+FROM gcr.io/google-appengine/aspnetcore:
+COPY . /app
+WORKDIR /app
+ENTRYPOINT ["dotnet", "simple.core.net.api.dll"]

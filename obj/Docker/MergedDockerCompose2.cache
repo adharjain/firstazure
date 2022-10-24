@@ -1,0 +1,12 @@
+services:
+  simple.core.net.api:
+    build:
+      context: C:\Adhar\Projects\firstazure
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+    image: simplecorenetapi
+    ports:
+    - target: 6000
+version: '3.4'
